@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/rugbyfield">
 
 
     <LinearLayout
@@ -24,7 +25,7 @@
                 android:padding="16dp"
                 android:text="Home"
                 android:textColor="#616161"
-                android:textSize="16sp" />
+                android:textSize="28sp" />
 
             <TextView
                 android:id="@+id/team_a_score"
@@ -95,7 +96,7 @@
                 android:padding="18dp"
                 android:text="Away"
                 android:textColor="#616161"
-                android:textSize="14sp" />
+                android:textSize="28sp" />
 
             <TextView
                 android:id="@+id/team_b_score"
@@ -155,7 +156,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="10dp"
         android:onClick="resetScore"
         android:text="RESET" />
 
