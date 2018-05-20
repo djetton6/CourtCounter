@@ -2,6 +2,7 @@
     <string name="app_name">Rugby Ref</string>
     <string name="home">Home</string>
     <string name="away">Away</string>
-    <string name="score">Try +5</string>
-    <string name="pen">Pen </string>
+    <string name="score">Try+5</string>
+    <string name="pen">Pen/Drop Kick+3 </string>
+    <string name="conversion">Conversion+2</string>
 </resources>
